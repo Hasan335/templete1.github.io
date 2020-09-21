@@ -1,0 +1,230 @@
+a:hover{
+    text-decoration: none;
+    color:#e74c3c;
+}
+a{
+    color:#000;
+}
+.section{
+    padding:70px 0px;
+}
+                                    /*heading*/                                          
+#header{
+    background:#e74c3c;
+    color:#fff;
+}
+h1#logo {
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#menu{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+#menu li a{
+    text-decoration: none;
+    color:#fff;
+    display:block;
+    padding:16px 10px;
+
+}
+#menu li a:hover{
+    background-color:#c0392b;
+}
+#menu li{
+    display:inline-block;
+}
+                                                    /* Banner*/
+#banner{
+    background:url('Templete-1-images/desk.jpg');
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+.banner-title h1 {
+    background: #ffffffd1;
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    margin-top: 80px;
+}
+.banner-title p {
+    background: #e74c3cc2;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+                                                            /*Services*/
+.service-box {
+   text-align: center;
+}                                                            
+i.fa {
+    font-size: 70px;
+    margin-bottom: 15px;
+    color: #e74c3c;
+}
+h2.section-head {
+    text-align: center;
+    position: relative;
+}
+h2.section-head:after {
+    content: "";
+    background: #e74c3c;
+    height: 3px;
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+}
+p.lend {
+    font-size: 17px;
+    color: #c2c0c0;
+}
+                                                            /*Testimonial*/
+ #testimonial {
+    background: url(Templete-1-images/phone.jpg);
+    color:#fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:relative;
+    padding: 50px 0px;
+}                                                          
+#testimonial:before{
+    background:#34495ea8;
+    content:"";
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.singletstmnl img {
+        border-radius: 50%;
+}
+.author, .author-company {
+    margin-left: 35px;
+}
+                                            /*News*/
+.news-post img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.post-head a{
+    color:#e74c3c;
+    font-size: 23px;
+}
+.readmore{
+    color:#e74c3c;
+}
+.news-date:before{
+    content: "\f073";
+    font-family: FontAwesome;
+    margin-right:10px;
+}
+.readmore{
+    font-size:18px;
+}
+.readmore:after{
+    content: "\f101";
+    font-family: FontAwesome;
+    margin-left: 10px;
+}
+
+.footer-sidebar{
+    color:#fff;
+    background:#34495e;
+    padding:50px 0px;
+}
+.lnews-list{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.lnews-list li:before{
+    content: "\f101";
+    font-family: FontAwesome;
+    margin-right: 10px;
+}
+.lnews-list li a{
+    color:white;
+}
+.lnews-list li{
+    margin-bottom: 3px;
+}
+.lnews-list li a:hover{
+    color:white;
+}
+.footer-section h4:after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background:#fff;
+    display: block;
+    margin: 10px 0px;
+}
+
+#footer{
+    background:#2c3e50;
+    padding:10px;
+}
+.fsocial-icons{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.fsocial-icons li{
+    display:inline-block;
+}
+.fsocial-icons li a{
+    display:block;
+    font-size: 25px;
+    color:white;
+    padding:5px
+}
+.copyright{
+    color:#fff;
+    font-weight: bold;
+}
+
+@media (max-width: 992px){
+    .news-post{
+        margin-bottom: 35px;
+    } 
+}
+@media (max-width: 768px){
+    #logo{
+        text-align: center;
+        margin:10px 0px;
+    }
+    #menu{
+        text-align: center;
+    }
+    .section{
+        padding:0px 0px;
+    }
+    .banner-title h1{
+        font-size:1.7rem;
+    }
+    #testimonial{
+        text-align: center;
+    }
+    .author, .author-company {
+        margin-left: 0;
+    }
+    .service-box{
+        margin-bottom: 30px;
+    }
+    .singletstmnl{
+        margin-bottom: 30px;
+    }
+    .footer-section{
+        margin-bottom: 30px;
+    } 
+    #footer{
+        text-align: center;
+    }
+    .fsocial-icons{
+        margin-top:10px;
+    }
+}
